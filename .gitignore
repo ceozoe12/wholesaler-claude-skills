@@ -1,2 +1,14 @@
 # Local testing folder
 .claudeskills-testing/
+
+# App dependencies and build output
+node_modules/
+.next/
+out/
+
+# Local env
+.env*.local
+
+# Test/build caches
+coverage/
+test-results/
