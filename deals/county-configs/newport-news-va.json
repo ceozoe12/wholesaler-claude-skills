@@ -1,0 +1,19 @@
+{
+  "slug": "newport-news-va",
+  "name": "Newport News",
+  "state": "VA",
+  "region": "Hampton Roads",
+  "assessorUrl": "https://www.nnva.gov/assessor",
+  "propertySearchUrl": "https://assessment.nnva.gov/PT/main/home.aspx",
+  "treasurerUrl": "https://www.nnva.gov/302/Property-Assessment-Search",
+  "searchModes": ["Street address", "Tax parcel identification number"],
+  "sourceKinds": ["public-records", "browser-capture", "manual-input"],
+  "codexWorkflow": [
+    "Open the Newport News Real Estate Information System.",
+    "Accept access terms if prompted, then search by address or parcel ID.",
+    "Capture ownership, assessment, sale history, property characteristics, and parcel identifiers.",
+    "Use the city assessor page for office contact and annual assessment context."
+  ],
+  "fallback": "If the assessment system session expires, reopen the assessor page and re-enter search terms manually.",
+  "lastVerified": "2026-04-27"
+}

@@ -33,6 +33,7 @@ AI-powered tools for real estate wholesalers. Give Codex an address and it pulls
 | Rehab Estimator | `.claudeskills/rehab-estimator-SKILL.md` | You have a listing with photos and need repair cost estimates across 3 scenarios |
 | Creative Finance Structurer | `.claudeskills/creative-finance-SKILL.md` | A cash offer doesn't work — structure a subject-to, seller finance, lease option, or wrap |
 | Conversation Coach | `.claudeskills/conversation-coach-SKILL.md` | You need to know what to say to a seller based on their situation and objections |
+| Deal Finder / Source Scout | `.claudeskills/source-scout-SKILL.md` | You need to find candidate deals before you have a fully researched address |
 | Deal Stacker | `.claudeskills/deal-stacker-SKILL.md` | Rank your pipeline and know which deals to focus on this week |
 
 ## Skill Chain
@@ -53,6 +54,7 @@ IF user says "creative finance" or "sub-to" or "seller finance" or "structure" o
 IF user says "call" or "script" or "objection" or "what do I say" → /conversation-coach
 IF user says "analyze this deal" → Chain: /property-recon → /comp-analyzer → /rehab-estimator
 IF user says "pipeline" or "what should I work on" or "stack" or "rank my deals" or "which deals" → /deal-stacker
+IF user says "find deals" or "source leads" or "scout" or "pull candidates" → /source-scout
 IF vague request → Show pipeline status, suggest highest-impact action
 ```
 

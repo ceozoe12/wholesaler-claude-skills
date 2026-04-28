@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test --import tsx tests/*.test.ts"
   },
   "dependencies": {
     "next": "15.3.4",
@@ -20,6 +20,7 @@
     "@types/react-dom": "19.0.4",
     "eslint": "9.28.0",
     "eslint-config-next": "15.3.4",
+    "tsx": "4.20.3",
     "typescript": "5.8.3"
   }
 }

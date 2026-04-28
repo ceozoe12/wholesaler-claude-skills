@@ -1,0 +1,19 @@
+{
+  "slug": "norfolk-va",
+  "name": "Norfolk",
+  "state": "VA",
+  "region": "Hampton Roads",
+  "assessorUrl": "https://www.norfolk.gov/assessor",
+  "propertySearchUrl": "https://www.norfolk.gov/1606/Norfolk-AIR",
+  "treasurerUrl": "https://www.norfolk.gov/4545/Property-Search",
+  "searchModes": ["Address", "Account number", "Street name"],
+  "sourceKinds": ["public-records", "browser-capture", "manual-input"],
+  "codexWorkflow": [
+    "Open Norfolk AIR and search by property address.",
+    "Capture ownership, assessment, sales history, building information, parcel map, and report links.",
+    "Use Norfolk Property Search for real estate assessment and receivable account data when tax status is needed.",
+    "Save screenshots or copied values into the deal recon report with source and date."
+  ],
+  "fallback": "If Norfolk AIR blocks automation or loads slowly, record the portal URL and search terms, then continue with manual evidence entry.",
+  "lastVerified": "2026-04-27"
+}

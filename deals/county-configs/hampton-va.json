@@ -1,0 +1,19 @@
+{
+  "slug": "hampton-va",
+  "name": "Hampton",
+  "state": "VA",
+  "region": "Hampton Roads",
+  "assessorUrl": "https://www.hampton.gov/96/Assessments-Property-Information",
+  "propertySearchUrl": "https://www.hampton.gov/1013/",
+  "treasurerUrl": "https://www.hampton.gov/1013/",
+  "searchModes": ["Real estate database", "Address", "Owner name when available"],
+  "sourceKinds": ["public-records", "browser-capture", "manual-input"],
+  "codexWorkflow": [
+    "Open the Hampton Assessor page and follow Real Estate Property Information Search.",
+    "Use the Assessments & Collections online services page when tax or payment records are needed.",
+    "Capture owner, assessment, parcel, physical property, and sales details.",
+    "If the search is embedded or iframe-based, use browser capture and manual extraction."
+  ],
+  "fallback": "Call or reference Hampton Assessor at 757-727-8311 when the public search does not expose the required record.",
+  "lastVerified": "2026-04-27"
+}

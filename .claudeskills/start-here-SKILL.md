@@ -41,6 +41,7 @@ Every skill in the system, what it does, and where it sits in the chain.
   /comp-analyzer           Comparable sales + ARV          v1.0
   /creative-finance        Sub-to, seller finance, hybrid  v1.0
   /conversation-coach      Scripts + objection handling    v1.0
+  /source-scout            Find candidate leads            v1.0
   /deal-stacker            Pipeline scoring + prioritize   coming
   /crm-connect             CyclSales/GHL integration       coming
 ```
@@ -157,6 +158,9 @@ IF user says "call" or "script" or "objection" or "what do I say" →
 
 IF user says "pipeline" or "prioritize" or "what should I work on" →
   Route to /deal-stacker
+
+IF user says "find deals" or "source leads" or "scout" or "pull candidates" →
+  Route to /source-scout
 
 IF user says "analyze this deal" or "full analysis" →
   Chain: /property-recon → /comp-analyzer → /rehab-estimator

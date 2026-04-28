@@ -1,0 +1,19 @@
+{
+  "slug": "portsmouth-va",
+  "name": "Portsmouth",
+  "state": "VA",
+  "region": "Hampton Roads",
+  "assessorUrl": "https://data.portsmouthva.gov/assessor/index.aspx",
+  "propertySearchUrl": "https://data.portsmouthva.gov/assessor/index.aspx",
+  "treasurerUrl": "https://portsmouthva.gov/161/City-Assessor",
+  "searchModes": ["Address", "Owner", "Parcel when available"],
+  "sourceKinds": ["public-records", "browser-capture", "manual-input"],
+  "codexWorkflow": [
+    "Open the Portsmouth assessor data portal.",
+    "Search by address first, then owner or parcel if the address does not match.",
+    "Capture owner, assessment, land/building details, and sale history.",
+    "Use the city assessor page for office contact and tax-office handoff notes."
+  ],
+  "fallback": "For billing or payment questions, record that Portsmouth directs users to the Treasurer rather than the Assessor.",
+  "lastVerified": "2026-04-27"
+}

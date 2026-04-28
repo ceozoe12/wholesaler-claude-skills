@@ -1,0 +1,19 @@
+{
+  "slug": "virginia-beach-va",
+  "name": "Virginia Beach",
+  "state": "VA",
+  "region": "Hampton Roads",
+  "assessorUrl": "https://assessor.virginiabeach.gov/",
+  "propertySearchUrl": "https://assessor.virginiabeach.gov/",
+  "treasurerUrl": "https://www.vbgov.com/government/departments/treasurer",
+  "searchModes": ["Address", "GPIN", "Legal description when available"],
+  "sourceKinds": ["public-records", "browser-capture", "manual-input"],
+  "codexWorkflow": [
+    "Open the Virginia Beach Real Estate Assessor site.",
+    "Use property search by address or GPIN when available.",
+    "Capture annual assessment, owner, parcel, physical property, and reassessment notice context.",
+    "Use manual fallback when the assessor app changes route state during browser automation."
+  ],
+  "fallback": "If property search is not directly linkable from the landing page, open the assessor site in Codex browser and navigate from the visible search controls.",
+  "lastVerified": "2026-04-27"
+}
